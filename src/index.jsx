@@ -15,7 +15,7 @@ function ReactBellIcon(props) {
               type='rotate'
               keyTimes='0; 0.5; 1'
               values='-12 10 4; 12 10 4; -12 10 4;'
-              dur='.2s'
+              dur='.5s'
               begin='0s'
               repeatCount='indefinite'
             />
@@ -27,8 +27,8 @@ function ReactBellIcon(props) {
                   attributeType='XML'
                   type='translate'
                   keyTimes='0; 0.5; 1'
-                  values='-8 0; 8 0; -8 0;'
-                  dur='.3s'
+                  values='-5 0; 5 0; -5 0;'
+                  dur='.4s'
                   begin='0s'
                   repeatCount='indefinite'
                 />
