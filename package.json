@@ -1,0 +1,44 @@
+{
+  "name": "react-bell-icon",
+  "version": "1.0.0",
+  "description": "SVG bell icon for react with animation",
+  "main": "dist/react-bell-icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch --progress",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravchl/react-bell-icon.git"
+  },
+  "keywords": [
+    "react",
+    "bell",
+    "icon",
+    "component",
+    "svg",
+    "animation"
+  ],
+  "author": "Gaurav Chikhale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravchl/react-bell-icon/issues"
+  },
+  "homepage": "https://github.com/gauravchl/react-bell-icon#readme",
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.14.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}
