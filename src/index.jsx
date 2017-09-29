@@ -9,11 +9,12 @@ function ReactBellIcon(props) {
     color = '#000',
     animate,
     active,
+    style,
     ...other,
   } = props;
 
   return (
-      <svg width={width} height={height} viewBox='0 0 20 20' style={{ overflow:'initial' }} {...other} >
+      <svg width={width} height={height} viewBox='0 0 20 20' style={{ overflow:'initial', ...style }} {...other} >
         <g id='Page-1' stroke='none' strokeWidth='1' fill='none' fillRule='evenodd'>
           <g id='bell' fill={color}>
             { active
