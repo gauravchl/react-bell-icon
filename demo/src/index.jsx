@@ -22,7 +22,7 @@ class Demo extends React.Component {
       animationSpeed : '0.3',
       color : '#000',
       animate: true,
-      active : false,
+      active : true,
     };
   }
 
@@ -34,10 +34,15 @@ class Demo extends React.Component {
 
   render() {
     let { width, height, animationSpeed, color, animate, active } = this.state;
+    const gcLink = <a style={styles.link} href='https://twitter.com/gauravchl' target='_blank'>GAURAV</a>
+    const gitHubLink = <a style={styles.link} href='https://github.com/gauravchl/react-bell-icon' target='_blank'>GITHUB</a>
 
     return (
       <MuiThemeProvider>
         <div style={styles.root}>
+
+          <h2>~~React Bell Icon~~</h2>
+
           <ReactBellIcon
             width={width}
             height={height}
@@ -47,6 +52,7 @@ class Demo extends React.Component {
             active={active}
             style={styles.bell}
           />
+
 
         <Card style={{ maxWidth: '600px' }}>
             <CardHeader
@@ -91,6 +97,11 @@ class Demo extends React.Component {
               </TableBody>
             </Table>
           </Card>
+
+          <div style={styles.footer}>
+            <p>MADE IN 🇮🇳 BY {gcLink}, FIND THIS ON {gitHubLink} </p>
+          </div>
+
         </div>
       </MuiThemeProvider>
     )
@@ -113,5 +124,17 @@ const styles = {
   },
   bell: {
     margin: '82px'
+  },
+
+  link: {
+    color: '#666'
+  },
+
+  footer: {
+    fontSize: '12px',
+    color: '#666',
+    padding: '0 22px',
+    borderTop: 'solid 2px #ddd',
+    marginTop: '62px',
   }
 }
