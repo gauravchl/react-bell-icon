@@ -3,6 +3,7 @@
 SVG bell icon for react with animations (2.71kB only)
 
 **Demo:**  https://gauravchl.github.io/react-bell-icon/demo/
+
 <img width="73" alt="screen shot 2017-10-02 at 12 11 33 pm" src="https://user-images.githubusercontent.com/3471415/31066486-ede76d76-a76a-11e7-9146-d9119c952a5e.png">
 <img src="https://user-images.githubusercontent.com/3471415/31066487-f29af78e-a76a-11e7-90c1-2f01642294d7.gif" width="100" >
 
@@ -20,13 +21,6 @@ import BellIcon from 'react-bell-icon';
 
 ```
 
-width = '40',
-height = '40',
-animationSpeed = '0.3',
-color = '#000',
-animate,
-active,
-style,
 
 **Props:**
 
