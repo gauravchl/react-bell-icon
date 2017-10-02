@@ -21,7 +21,7 @@ class Demo extends React.Component {
       height : '40',
       animationSpeed : '0.3',
       color : '#000',
-      animate: false,
+      animate: true,
       active : false,
     };
   }

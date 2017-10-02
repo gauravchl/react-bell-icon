@@ -1,5 +1,5 @@
 var APP_PREFIX = 'react-bell-icon'
-var VERSION = '0.0.0.4'
+var VERSION = '0.0.0.5'
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [
   './',
