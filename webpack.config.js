@@ -14,11 +14,11 @@ var config = {
     libraryTarget: 'commonjs2',
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /.jsx?$/,
         include: SRC_DIR,
-        loader: 'babel',
+        loader: 'babel-loader',
         exclude: /node_modules/,
       },
     ],
@@ -36,7 +36,7 @@ demoConfig = {
     filename: 'index.js',
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /.jsx?$/,
         include: [
@@ -47,16 +47,7 @@ demoConfig = {
         exclude: /node_modules/,
       },
     ],
-  },
-  plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: JSON.stringify('production'),
-      },
-    }),
-    new webpack.optimize.UglifyJsPlugin(),
-  ],
-
+  }
 }
 
 module.exports = [config, demoConfig];

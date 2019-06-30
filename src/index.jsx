@@ -10,7 +10,7 @@ function ReactBellIcon(props) {
     animate,
     active,
     style,
-    ...other,
+    ...other
   } = props;
 
   return (
